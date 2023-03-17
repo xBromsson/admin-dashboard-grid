@@ -1,24 +1,62 @@
 .main-container{
     display: grid;
-    grid-template-columns: 25% 1fr;
+    grid-template-columns: 20% 1fr;
     height: 100vh;
 }
 
 .main-container > div{
-    background-color: blue;
+    background-color: rgb(231, 231, 231);
 
 }
 
 .sidebar{
     display: grid;
-    grid-template-columns: 20px 1fr;
-    grid-template-rows: 50px 50px 50px 50px;
+    grid-template: 20% 1fr 1fr / 1fr;
+    gap: 25px;
 }
 
 .sidebar > div{
+    display: grid;
     border: solid;
     border-color: black;
     border-width: 1px;
+    align-items: center;
+    padding: 10px;
+}
+
+.sidebar > div > div{
+    display: grid;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+} 
+
+.sidebar > div > div.icon-column{
+    display: grid;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    align-items: center;
+    justify-content: right;
+    padding: 10px;
+}
+
+.dashboard-title{
+    display: grid;
+    grid-template: 1fr / 50px 1fr;
+}
+
+.navigation{
+    display: grid;
+    grid-template: 50px 50px 50px 50px 50px / 50px 1fr;
+}
+
+.settings{
+    display: grid;
+    grid-template: 50px 50px 50px / 50px 1fr;
 }
 
 .main-content{
@@ -54,12 +92,19 @@
 
 .projects{
     display: grid;
-    grid-template: 1fr 1fr 1fr / 1fr 1fr
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    padding: 20px;
+    gap: 20px;
+    background-color: rgb(179, 179, 179);
 }
 
 .projects > div{
     border: solid;
-    border-width: 1px;
+    border-width: 0px 0px 0px 10px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, .25);
+    background-color: rgb(231, 231, 231);
 }
 
 .notifications{
@@ -70,6 +115,7 @@
 .notifications > div {
     border: solid;
     border-width: 1px;
+    padding: 10px;
 }
 
 .announcements {
