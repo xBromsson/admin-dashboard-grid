@@ -1,0 +1,93 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    height: 100vh;
+}
+
+.main-container > div{
+    background-color: blue;
+
+}
+
+.sidebar{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    grid-template-rows: 50px 50px 50px 50px;
+}
+
+.sidebar > div{
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.main-content{
+    display: grid;
+    grid-template: 20% 1fr / 1fr;
+}
+
+.main-content > div{
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.header {
+    display: grid;
+    grid-template: 1fr 1fr / 50% 1fr 1fr 1fr
+}
+
+.header > div{
+    border: solid;
+    border-width: 1px;
+}
+
+.content{
+    display: grid;
+    grid-template: 1fr / 75% 1fr
+}
+
+.content > div{
+    border: solid;
+    border-width: 1px;
+}
+
+.projects{
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr
+}
+
+.projects > div{
+    border: solid;
+    border-width: 1px;
+}
+
+.notifications{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr
+}
+
+.notifications > div {
+    border: solid;
+    border-width: 1px;
+}
+
+.announcements {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr;
+}
+
+.announcements > div{
+    border: solid;
+    border-width: 1px;
+}
+
+.trending{
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr;
+}
+
+.trending > div{
+    border: solid;
+    border-width: 1px;
+}
