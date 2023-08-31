@@ -4,7 +4,7 @@
 
 ## 📖 About
 
-This project was started as a learning excercise for learning CSS Grid. Feel free to explore the code but please be aware it is incomplete and was abandoned to continue my learning journey elsewhere.
+This project was started as an excercise for learning CSS Grid. Feel free to explore the code but please be aware it is incomplete and was abandoned to continue my learning journey elsewhere.
 
 <details>
   <summary>📸 Screen Shots</summary>
