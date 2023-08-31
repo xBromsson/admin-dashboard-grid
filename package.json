@@ -1,0 +1,31 @@
+{
+  "name": "admin-dashboard-grid",
+  "version": "1.0.0",
+  "description": "Early and unfinished project when I was first learning about CSS Grid",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xBromsson/admin-dashboard-grid.git"
+  },
+  "keywords": [
+    "admin",
+    "dashboard",
+    "grid",
+    "learning",
+    "CSS",
+    "grid"
+  ],
+  "author": "Marvin Brown",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/xBromsson/admin-dashboard-grid/issues"
+  },
+  "homepage": "https://github.com/xBromsson/admin-dashboard-grid#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
