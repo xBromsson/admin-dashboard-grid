@@ -1,4 +1,4 @@
-# 💼 Admin Dashboard CSS Grid
+# 🎛️ Admin Dashboard CSS Grid
 
 ![Static Badge](https://img.shields.io/badge/status%3A-Inactive-red)
 
